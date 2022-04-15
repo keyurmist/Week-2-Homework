@@ -37,10 +37,29 @@ header a {
     font-weight: bold;
 }
 
+.about-me {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.about-me p {
+    font-size:16px;
+    padding:0 30px;
+    line-height: 1.4;
+    width:80%;
+}
+
 
 .title {
-    padding-top:50px;
-    padding-bottom:50px;
+    min-height:100%;
+    text-align: right;
+    border-right: 2px solid rgb(16, 119, 84);
+    padding-right:40px;
+    min-width:20%;
+    max-width:20%;
+
 }
 
 .title h1 {
@@ -63,7 +82,7 @@ header a {
 }
 
 .projects-grid {
-    width:70%;
+    width:80%;
     display:grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 1fr);
