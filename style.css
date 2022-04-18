@@ -4,10 +4,11 @@
 
 body {
     font-family: sans-serif;
+    color:rgb(16, 119, 84);
 }
 
 header {
-    background-color: rgb(162, 227, 206);
+    background-color: rgb(189, 188, 188);
     display:flex;
     justify-content:space-between;
     flex-wrap:wrap;
@@ -117,6 +118,12 @@ header a {
 .javascript {
     background-image: url("./javascript-illustration.png");
     background-position: 60% 50%;
+}
+
+.label {
+    background-color: rgb(189,188,188);
+    padding:10px;
+    height:75px;
 }
 
 footer {
