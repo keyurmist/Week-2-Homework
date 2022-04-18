@@ -114,3 +114,33 @@ header a {
     background-image: url("./javascript-illustration.png");
     background-position: 60% 50%;
 }
+
+footer {
+    display:flex;
+    flex-wrap:wrap;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.contact-wrap {
+    width:80%;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+footer ul {
+    list-style: none;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-weight: bold;
+    align-items: center;
+}
+
+footer ul a {
+    text-decoration: none;
+    padding:10px;
+
+}
