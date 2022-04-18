@@ -40,6 +40,12 @@ header a {
     border-bottom: 4px solid rgb(16, 119, 84);
     color:rgb(16, 119, 84);
     font-weight: bold;
+    padding:8px;
+}
+
+header nav ul li a:hover {
+    background-color: rgb(138, 210, 186);
+    border-radius: 10px;
 }
 /*End of header section*/
 
