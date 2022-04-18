@@ -2,6 +2,10 @@
     box-sizing:border-box;
 }
 
+body {
+    font-family: sans-serif;
+}
+
 header {
     background-color: rgb(162, 227, 206);
     display:flex;
@@ -90,7 +94,7 @@ header a {
 }
 
 .project {
-    border:1px solid black;
+    border:2px solid black;
     display: flex;
     justify-content: flex-end;
     align-items:flex-end;
@@ -101,13 +105,13 @@ header a {
 
 .horiseon {
     grid-column:1/3;
-    grid-row:span 2;
+    grid-row:span 3;
     background-image: url("./Untitled.jpg");
 }
 
 .css {
     background-image:url("./css.jpg");
-    background-position: 50% 15%;
+    background-position: 40% 50%;
 }
 
 .javascript {
