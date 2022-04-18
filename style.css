@@ -18,8 +18,7 @@ header {
 h1 {
     color:rgb(16, 119, 84);
     font-weight: bold;
-    font-size:30px;
-    border-bottom: 2px solid rgb(16, 119, 84);
+    font-size:40px;
 }
 
 nav ul {
@@ -37,7 +36,7 @@ nav ul li {
 
 header a {
     text-decoration: none;
-    border-bottom: 2px solid rgb(16, 119, 84);
+    border-bottom: 4px solid rgb(16, 119, 84);
     color:rgb(16, 119, 84);
     font-weight: bold;
 }
@@ -52,7 +51,7 @@ header a {
 
 .keyur {
     height:400px;
-    border:4px solid rgb(16, 119, 84);
+    border:5px solid rgb(16, 119, 84);
 }
 
 .about-me {
@@ -73,7 +72,7 @@ header a {
 .title {
     min-height:100%;
     text-align: right;
-    border-right: 2px solid rgb(16, 119, 84);
+    border-right: 5px solid rgb(16, 119, 84);
     padding-right:40px;
     min-width:20%;
     max-width:20%;
@@ -108,7 +107,7 @@ header a {
 }
 
 .project {
-    border:2px solid black;
+    border:5px solid black;
     display: flex;
     justify-content: flex-end;
     align-items:flex-end;
