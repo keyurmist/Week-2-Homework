@@ -127,6 +127,7 @@ header nav ul li a:hover {
     text-decoration: none;
     background-size: cover;
     background-position: center;
+    opacity:0.8;
 }
 
 .horiseon {
@@ -149,6 +150,10 @@ header nav ul li a:hover {
     background-color: rgb(189,188,188);
     padding:10px;
     height:75px;
+}
+
+.project:hover {
+    opacity: 2.0;
 }
 /*End of projects section*/
 
