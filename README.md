@@ -26,8 +26,10 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 Below is what the website looks on desktop
 
-![pc example](./images/pc%20website.jpg)
+![pc example](./assets/images/pc%20website.jpg)
 
 Below is what the website looks on mobile
 
-![mobile](./images/mobile%20web.jpg)
+![mobile](./assets/images/mobile%20web.jpg)
+
+Website link: https://keyurmist.github.io/Week-2-Homework/
