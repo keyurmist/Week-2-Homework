@@ -163,7 +163,7 @@ footer {
     flex-wrap:wrap;
     padding-top: 20px;
     padding-bottom: 20px;
-    
+    background-color: rgb(189, 188, 188);
 }
 
 .contact-wrap {
@@ -182,9 +182,17 @@ footer ul {
     align-items: center;
 }
 
+footer ul li {
+    padding:20px;
+}
+
 footer ul a {
     text-decoration: none;
     padding:10px;
+}
 
+footer ul li a:hover {
+    background-color: rgb(138, 210, 186);
+    border-radius: 10px;
 }
 /*End of footer*/
