@@ -120,7 +120,7 @@ header nav ul li a:hover {
 }
 
 .project {
-    border:5px solid black;
+    border:5px solid rgb(16, 119, 84);
     display: flex;
     justify-content: flex-end;
     align-items:flex-end;
@@ -196,3 +196,56 @@ footer ul li a:hover {
     border-radius: 10px;
 }
 /*End of footer*/
+
+@media screen and (max-width:768px) {
+    title h1 {
+        font-size: 15px;
+    }
+
+    .about-me {
+        font-size: 12px;
+        padding:0 15px;
+    }
+}
+
+@media screen and (max-width:575px) {
+    header {
+        justify-content: center;
+        padding:5px;
+    }
+
+    .about-me {
+        flex-direction: column;
+    }
+
+    .myself {
+        flex-direction: column;
+    }
+
+    .title {
+        border-right: none;
+        text-align: center;
+        padding:0;
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    .my-projects {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .projects-container {
+        width:100%;
+        padding:5px;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+
+    .contact-wrap {
+        width: 100%;
+    }
+}
